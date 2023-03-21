@@ -1,0 +1,82 @@
+@font-face {
+	font-family: 'tvn';
+	src: url('../font/tvN\ 즐거운이야기OTF\ Medium.otf');
+}
+@font-face {
+	font-family: 'BMJua';
+	font-weight: normal;
+	font-style: normal;
+	src: url('https://cdn.jsdelivr.net/gh/webfontworld/BMJua/BMJua.eot');
+	src: url('https://cdn.jsdelivr.net/gh/webfontworld/BMJua/BMJua.eot?#iefix') format('embedded-opentype'),
+		url('https://cdn.jsdelivr.net/gh/webfontworld/BMJua/BMJua.woff2') format('woff2'),
+		url('https://cdn.jsdelivr.net/gh/webfontworld/BMJua/BMJua.woff') format('woff'),
+		url('https://cdn.jsdelivr.net/gh/webfontworld/BMJua/BMJua.ttf') format('truetype');
+	font-display: swap;
+}
+body {
+	margin: 0px;
+	font-size: 1.2rem;
+	font-family: 'BMJua';
+}
+div,
+input,
+textarea {
+	box-sizing: border-box;
+}
+.main-background {
+	width: 100%;
+	background-color: #f7f9fc;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.white-box {
+	background-color: white;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+button {
+	background-color: #6fbaf8;
+	border: none;
+	color: white;
+	padding: 10px 5px 10px 5px;
+	border-radius: 5px;
+	width: 7.5rem;
+}
+a {
+	text-decoration: none;
+}
+.f-grey {
+	color: dimgray;
+}
+.f-blue {
+	color: #6fbaf8;
+}
+.custom-border {
+	border-bottom: 3px solid;
+	border-color: lightgrey;
+}
+.profile-2 .col-2 {
+	border-color: #6fbaf8;
+}
+.profile-2 .white-box {
+	box-sizing: border-box;
+}
+.profile-2-1 {
+	height: 25rem;
+}
+.profile-2-2 {
+	height: 38rem;
+}
+@media screen and (max-width: 1028px) {
+	.profile-2-1 {
+		height: 20rem;
+	}
+	.profile-2-2 {
+		height: 30rem;
+	}
+}
+@media screen and (max-width: 768px) {
+	.profile-2-2 {
+		height: 35rem;
+	}
+}
